@@ -139,10 +139,23 @@ class Bundle:
     def sprite_meta(self, name):
         o = self.sprites[name]
         s = self.tt(o)
-        ts = o.read().m_RD.texture.read().m_TextureSettings
+        tex = o.read().m_RD.texture.read()
+        ts = tex.m_TextureSettings
         b = s["m_Border"]
+        size = [int(round(s["m_Rect"]["width"])), int(round(s["m_Rect"]["height"]))]
+        fmt = int(tex.m_TextureFormat)
+        ## DXT works in 4x4 blocks, so Unity will not compress an image whose sides are not a
+        ## multiple of 4. The source got away with it only where the sprite was a cut-out of a
+        ## larger texture (paste_0 of a 512x512 sheet); here each sprite is its own image, so such
+        ## a sprite is kept uncompressed instead.
+        if fmt in (10, 12) and (size[0] % 4 or size[1] % 4):
+            fmt = 4
         return {
-            "size": [int(round(s["m_Rect"]["width"])), int(round(s["m_Rect"]["height"]))],
+            ## the GPU format and mip chain the source shipped, reproduced per texture: DXT5 for the
+            ## large icons, uncompressed where the size is not a multiple of 4 or the art is tiny
+            "textureFormat": fmt,
+            "mipmaps": tex.m_MipCount > 1,
+            "size": size,
             "border": [b["x"], b["y"], b["z"], b["w"]],  # left, bottom, right, top
             "pivot": [s["m_Pivot"]["x"], s["m_Pivot"]["y"]],
             "pixelsPerUnit": s["m_PixelsToUnits"],

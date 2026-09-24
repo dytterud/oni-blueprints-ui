@@ -62,12 +62,25 @@ namespace BlueprintsUi.Editor
             var importer = (TextureImporter)assetImporter;
             importer.textureType = TextureImporterType.Sprite;
             importer.spriteImportMode = SpriteImportMode.Single;
-            importer.mipmapEnabled = false;
+            importer.mipmapEnabled = Convert.ToBoolean(meta["mipmaps"]);
             importer.alphaIsTransparency = true;
             importer.sRGBTexture = true;
             importer.npotScale = TextureImporterNPOTScale.None;
-            importer.textureCompression = TextureImporterCompression.Uncompressed;
             importer.maxTextureSize = 2048;
+
+            ///the exact GPU format the source bundle shipped for this texture (DXT5, DXT1, RGB24 or
+            ///RGBA32), so the rebuild costs the same video memory. TextureImporterFormat shares
+            ///TextureFormat's numbering for all four.
+            var format = (TextureImporterFormat)Convert.ToInt32(meta["textureFormat"]);
+            importer.textureCompression = TextureImporterCompression.Compressed;
+            importer.SetPlatformTextureSettings(new TextureImporterPlatformSettings
+            {
+                name = "Standalone",
+                overridden = true,
+                maxTextureSize = 2048,
+                format = format,
+                textureCompression = TextureImporterCompression.Compressed,
+            });
             importer.filterMode = (FilterMode)Convert.ToInt32(meta["filterMode"]);
             importer.wrapMode = (TextureWrapMode)Convert.ToInt32(meta["wrapMode"]);
             importer.spritePixelsPerUnit = Convert.ToSingle(meta["pixelsPerUnit"]);

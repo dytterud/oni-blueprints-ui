@@ -2,6 +2,8 @@
  "9pxRoundedCorner": {
   "file": "Assets/Sprites/Upstream/9pxRoundedCorner.png",
   "game": false,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    9,
    9
@@ -23,6 +25,8 @@
  "Background": {
   "file": "Assets/Sprites/Game/Background.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": true,
   "size": [
    32,
    32
@@ -44,6 +48,8 @@
  "BlueprintBG": {
   "file": "Assets/Sprites/Upstream/BlueprintBG.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    100,
    100
@@ -65,6 +71,8 @@
  "Checkmark": {
   "file": "Assets/Sprites/Game/Checkmark.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    27,
    23
@@ -86,6 +94,8 @@
  "DeleteIcon": {
   "file": "Assets/Sprites/Upstream/DeleteIcon.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    800,
    800
@@ -107,6 +117,8 @@
  "Filter": {
   "file": "Assets/Sprites/Upstream/Filter.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    512,
    512
@@ -128,6 +140,8 @@
  "Flip": {
   "file": "Assets/Sprites/Upstream/Flip.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    512,
    512
@@ -149,6 +163,8 @@
  "MPM_EXPORT": {
   "file": "Assets/Sprites/Upstream/MPM_EXPORT.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    64,
    64
@@ -170,6 +186,8 @@
  "MPM_IMPORT": {
   "file": "Assets/Sprites/Upstream/MPM_IMPORT.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    64,
    64
@@ -191,6 +209,8 @@
  "RetakeBlueprint": {
   "file": "Assets/Sprites/Upstream/RetakeBlueprint.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    128,
    128
@@ -212,6 +232,8 @@
  "action_cancel": {
   "file": "Assets/Sprites/Game/action_cancel.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    125,
    123
@@ -233,6 +255,8 @@
  "blurredBorder": {
   "file": "Assets/Sprites/Upstream/blurredBorder.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    64,
    64
@@ -254,6 +278,8 @@
  "button": {
   "file": "Assets/Sprites/Upstream/button.png",
   "game": false,
+  "textureFormat": 3,
+  "mipmaps": false,
   "size": [
    21,
    21
@@ -275,6 +301,8 @@
  "create_new": {
   "file": "Assets/Sprites/Upstream/create_new.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    800,
    800
@@ -296,6 +324,8 @@
  "iconLeft": {
   "file": "Assets/Sprites/Game/iconLeft.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    123,
    124
@@ -317,6 +347,8 @@
  "iconRight": {
   "file": "Assets/Sprites/Game/iconRight.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    123,
    124
@@ -338,6 +370,8 @@
  "icon_TrendArrows_Down_1": {
   "file": "Assets/Sprites/Game/icon_TrendArrows_Down_1.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    25,
    51
@@ -359,6 +393,8 @@
  "icon_folder": {
   "file": "Assets/Sprites/Game/icon_folder.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    199,
    137
@@ -380,6 +416,8 @@
  "icon_pencil": {
   "file": "Assets/Sprites/Game/icon_pencil.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    42,
    42
@@ -401,6 +439,8 @@
  "info_icon": {
   "file": "Assets/Sprites/Upstream/info_icon.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    128,
    128
@@ -422,6 +462,8 @@
  "moveFolder": {
   "file": "Assets/Sprites/Upstream/moveFolder.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    800,
    800
@@ -443,6 +485,8 @@
  "overview_jobs_icon_checkmark": {
   "file": "Assets/Sprites/Game/overview_jobs_icon_checkmark.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    54,
    40
@@ -464,6 +508,8 @@
  "parent_folder_icon_216194": {
   "file": "Assets/Sprites/Upstream/parent_folder_icon_216194.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    512,
    512
@@ -485,6 +531,8 @@
  "paste_0": {
   "file": "Assets/Sprites/Upstream/paste_0.png",
   "game": false,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    359,
    447
@@ -506,6 +554,8 @@
  "roundedCorners": {
   "file": "Assets/Sprites/Upstream/roundedCorners.png",
   "game": false,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    17,
    17
@@ -527,6 +577,8 @@
  "scollbarFIll 1": {
   "file": "Assets/Sprites/Upstream/scollbarFIll 1.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    16,
    16
@@ -548,6 +600,8 @@
  "scrollbar_bg": {
   "file": "Assets/Sprites/Upstream/scrollbar_bg.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    16,
    16
@@ -569,6 +623,8 @@
  "stresspanel_icon_expand_arrow": {
   "file": "Assets/Sprites/Game/stresspanel_icon_expand_arrow.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    22,
    16
@@ -590,6 +646,8 @@
  "stresspanel_icon_expand_arrow_up": {
   "file": "Assets/Sprites/Game/stresspanel_icon_expand_arrow_up.png",
   "game": true,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    22,
    16
@@ -611,6 +669,8 @@
  "trash_bin_icon": {
   "file": "Assets/Sprites/Upstream/trash_bin_icon.png",
   "game": false,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    50,
    61
@@ -632,6 +692,8 @@
  "undo-2-xxl": {
   "file": "Assets/Sprites/Upstream/undo-2-xxl.png",
   "game": false,
+  "textureFormat": 12,
+  "mipmaps": false,
   "size": [
    256,
    256
@@ -653,6 +715,8 @@
  "warning": {
   "file": "Assets/Sprites/Upstream/warning.png",
   "game": false,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    50,
    50
@@ -674,6 +738,8 @@
  "warningSevere": {
   "file": "Assets/Sprites/Upstream/warningSevere.png",
   "game": false,
+  "textureFormat": 4,
+  "mipmaps": false,
   "size": [
    50,
    50
@@ -695,6 +761,8 @@
  "web_title": {
   "file": "Assets/Sprites/Game/web_title.png",
   "game": true,
+  "textureFormat": 10,
+  "mipmaps": false,
   "size": [
    16,
    16

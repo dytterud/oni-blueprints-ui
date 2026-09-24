@@ -12,12 +12,16 @@ import json
 import os
 import sys
 
-from PIL import Image, ImageChops
+from PIL import Image, ImageChops, ImageStat
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from extract_spec import PREFABS, ROOT, Bundle  # noqa: E402
 
 TOL = 1e-4
+
+## lossy GPU formats (TextureFormat numbering) and the error a re-encode may add
+LOSSY = {10: "DXT1", 12: "DXT5"}
+LOSSY_MAX, LOSSY_MEAN = 48, 2.0
 
 
 def diff(a, b, where, out):
@@ -71,6 +75,7 @@ def diff_nodes(a, b, path, root, out):
 def main(built_path):
     built = Bundle(built_path)
     out = []
+    notes = []
     for name in PREFABS:
         with open(os.path.join(ROOT, "spec", f"{name}.json"), encoding="utf-8") as f:
             spec = json.load(f)
@@ -99,6 +104,17 @@ def main(built_path):
         actual = built.sprite_image(name).convert("RGBA")
         if expected.size != actual.size:
             out.append(f"sprite {name}: image {expected.size} in repo, {actual.size} built")
+        elif want["textureFormat"] in LOSSY:
+            ## DXT re-encodes 4x4 blocks from the PNG, so exact equality is not on offer. The PNG
+            ## is itself a decode of the source bundle's DXT data, so the error stays small.
+            delta = ImageChops.difference(expected, actual)
+            worst = max(hi for _, hi in delta.getextrema())
+            mean = sum(ImageStat.Stat(delta).mean) / 4
+            notes.append(f"sprite {name}: {LOSSY[want['textureFormat']]}, max channel error "
+                         f"{worst}, mean {mean:.2f}")
+            if worst > LOSSY_MAX or mean > LOSSY_MEAN:
+                out.append(f"sprite {name}: {LOSSY[want['textureFormat']]} error too large "
+                           f"(max {worst} > {LOSSY_MAX} or mean {mean:.2f} > {LOSSY_MEAN})")
         elif ImageChops.difference(expected, actual).getbbox() is not None:
             out.append(f"sprite {name}: pixels differ")
     for name in sorted(set(built.sprites) - set(sprites)):
@@ -106,6 +122,8 @@ def main(built_path):
     for u in sorted(built.unhandled):
         out.append(f"unhandled: {u}")
 
+    for line in notes:
+        print("  " + line)
     for line in out:
         print(line)
     print(f"{len(out)} difference(s)" if out else "identical to spec")
