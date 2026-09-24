@@ -151,7 +151,15 @@ class Bundle:
         }
 
     def sprite_image(self, name):
-        return self.sprites[name].read().image
+        """The sprite's full rect, cut from its texture. Not UnityPy's Sprite.image: that trims to
+        the sprite's tight mesh bounds, dropping transparent padding the layout depends on."""
+        o = self.sprites[name]
+        r = self.tt(o)["m_Rect"]
+        tex = o.read().m_RD.texture.read().image
+        x, y = int(round(r["x"])), int(round(r["y"]))
+        w, h = int(round(r["width"])), int(round(r["height"]))
+        ## Unity's rect origin is bottom-left; PIL's is top-left
+        return tex.crop((x, tex.height - y - h, x + w, tex.height - y))
 
 
 def write_json(path, data):

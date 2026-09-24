@@ -43,7 +43,7 @@ here and in the mod in the same breath.
 
 Requirements:
 
-- **Unity 6000.3.x.** The game runs 6000.3.5f2 and the project pins 6000.3.8f1, but any 6000.3 works.
+- **Unity 6000.3.x.** The project pins 6000.3.5f2, the version the game itself runs; any 6000.3 works.
 - **Build support modules:** Windows, **Mac Build Support (Mono)** and **Linux Build Support (Mono)**.
 - **For the compare step:** Python 3 with `pip install UnityPy Pillow`.
 
