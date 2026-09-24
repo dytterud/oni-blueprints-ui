@@ -1,0 +1,716 @@
+{
+ "9pxRoundedCorner": {
+  "file": "Assets/Sprites/Upstream/9pxRoundedCorner.png",
+  "game": false,
+  "size": [
+   9,
+   9
+  ],
+  "border": [
+   4.0,
+   4.0,
+   4.0,
+   4.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "Background": {
+  "file": "Assets/Sprites/Game/Background.png",
+  "game": true,
+  "size": [
+   32,
+   32
+  ],
+  "border": [
+   10.0,
+   10.0,
+   10.0,
+   10.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 200.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "BlueprintBG": {
+  "file": "Assets/Sprites/Upstream/BlueprintBG.png",
+  "game": false,
+  "size": [
+   100,
+   100
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 0
+ },
+ "Checkmark": {
+  "file": "Assets/Sprites/Game/Checkmark.png",
+  "game": true,
+  "size": [
+   27,
+   23
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "DeleteIcon": {
+  "file": "Assets/Sprites/Upstream/DeleteIcon.png",
+  "game": false,
+  "size": [
+   800,
+   800
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "Filter": {
+  "file": "Assets/Sprites/Upstream/Filter.png",
+  "game": false,
+  "size": [
+   512,
+   512
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "Flip": {
+  "file": "Assets/Sprites/Upstream/Flip.png",
+  "game": false,
+  "size": [
+   512,
+   512
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "MPM_EXPORT": {
+  "file": "Assets/Sprites/Upstream/MPM_EXPORT.png",
+  "game": false,
+  "size": [
+   64,
+   64
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "MPM_IMPORT": {
+  "file": "Assets/Sprites/Upstream/MPM_IMPORT.png",
+  "game": false,
+  "size": [
+   64,
+   64
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "RetakeBlueprint": {
+  "file": "Assets/Sprites/Upstream/RetakeBlueprint.png",
+  "game": false,
+  "size": [
+   128,
+   128
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "action_cancel": {
+  "file": "Assets/Sprites/Game/action_cancel.png",
+  "game": true,
+  "size": [
+   125,
+   123
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "blurredBorder": {
+  "file": "Assets/Sprites/Upstream/blurredBorder.png",
+  "game": false,
+  "size": [
+   64,
+   64
+  ],
+  "border": [
+   32.0,
+   32.0,
+   32.0,
+   32.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "button": {
+  "file": "Assets/Sprites/Upstream/button.png",
+  "game": false,
+  "size": [
+   21,
+   21
+  ],
+  "border": [
+   0.0,
+   2.0,
+   2.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 0,
+  "wrapMode": 1
+ },
+ "create_new": {
+  "file": "Assets/Sprites/Upstream/create_new.png",
+  "game": false,
+  "size": [
+   800,
+   800
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "iconLeft": {
+  "file": "Assets/Sprites/Game/iconLeft.png",
+  "game": true,
+  "size": [
+   123,
+   124
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "iconRight": {
+  "file": "Assets/Sprites/Game/iconRight.png",
+  "game": true,
+  "size": [
+   123,
+   124
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "icon_TrendArrows_Down_1": {
+  "file": "Assets/Sprites/Game/icon_TrendArrows_Down_1.png",
+  "game": true,
+  "size": [
+   25,
+   51
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "icon_folder": {
+  "file": "Assets/Sprites/Game/icon_folder.png",
+  "game": true,
+  "size": [
+   199,
+   137
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "icon_pencil": {
+  "file": "Assets/Sprites/Game/icon_pencil.png",
+  "game": true,
+  "size": [
+   42,
+   42
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "info_icon": {
+  "file": "Assets/Sprites/Upstream/info_icon.png",
+  "game": false,
+  "size": [
+   128,
+   128
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "moveFolder": {
+  "file": "Assets/Sprites/Upstream/moveFolder.png",
+  "game": false,
+  "size": [
+   800,
+   800
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "overview_jobs_icon_checkmark": {
+  "file": "Assets/Sprites/Game/overview_jobs_icon_checkmark.png",
+  "game": true,
+  "size": [
+   54,
+   40
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "parent_folder_icon_216194": {
+  "file": "Assets/Sprites/Upstream/parent_folder_icon_216194.png",
+  "game": false,
+  "size": [
+   512,
+   512
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "paste_0": {
+  "file": "Assets/Sprites/Upstream/paste_0.png",
+  "game": false,
+  "size": [
+   359,
+   447
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "roundedCorners": {
+  "file": "Assets/Sprites/Upstream/roundedCorners.png",
+  "game": false,
+  "size": [
+   17,
+   17
+  ],
+  "border": [
+   8.0,
+   8.0,
+   8.0,
+   8.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "scollbarFIll 1": {
+  "file": "Assets/Sprites/Upstream/scollbarFIll 1.png",
+  "game": false,
+  "size": [
+   16,
+   16
+  ],
+  "border": [
+   7.0,
+   7.0,
+   7.0,
+   7.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "scrollbar_bg": {
+  "file": "Assets/Sprites/Upstream/scrollbar_bg.png",
+  "game": false,
+  "size": [
+   16,
+   16
+  ],
+  "border": [
+   6.0,
+   6.0,
+   6.0,
+   6.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 0
+ },
+ "stresspanel_icon_expand_arrow": {
+  "file": "Assets/Sprites/Game/stresspanel_icon_expand_arrow.png",
+  "game": true,
+  "size": [
+   22,
+   16
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "stresspanel_icon_expand_arrow_up": {
+  "file": "Assets/Sprites/Game/stresspanel_icon_expand_arrow_up.png",
+  "game": true,
+  "size": [
+   22,
+   16
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "trash_bin_icon": {
+  "file": "Assets/Sprites/Upstream/trash_bin_icon.png",
+  "game": false,
+  "size": [
+   50,
+   61
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "undo-2-xxl": {
+  "file": "Assets/Sprites/Upstream/undo-2-xxl.png",
+  "game": false,
+  "size": [
+   256,
+   256
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "warning": {
+  "file": "Assets/Sprites/Upstream/warning.png",
+  "game": false,
+  "size": [
+   50,
+   50
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "warningSevere": {
+  "file": "Assets/Sprites/Upstream/warningSevere.png",
+  "game": false,
+  "size": [
+   50,
+   50
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ },
+ "web_title": {
+  "file": "Assets/Sprites/Game/web_title.png",
+  "game": true,
+  "size": [
+   16,
+   16
+  ],
+  "border": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pivot": [
+   0.5,
+   0.5
+  ],
+  "pixelsPerUnit": 100.0,
+  "filterMode": 1,
+  "wrapMode": 1
+ }
+}

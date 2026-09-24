@@ -1,0 +1,55 @@
+NOTICE - oni-blueprints-ui
+=========================
+
+Where everything in this repository came from. LICENSE is the MIT grant; this file is the
+provenance behind it.
+
+
+Source bundle
+-------------
+
+spec/ and Assets/Sprites/Upstream/ were extracted, by tools/extract_spec.py, from the
+blueprints_ui AssetBundle that Blueprints Included shipped at commit b1e3175
+(dytterud/oni-mods, 2026-09-07). Git blob SHAs:
+
+    windows  2335a6f7075235cb2eacb2f043159897236b639b   (the one extracted)
+    mac      543411689ba7ff153668ffa72efbc1f16fa7ce85
+    linux    4345a5e146bc65fafd0450a7bc068d163bb7b5ec
+
+Those bytes are identical to SGT_Imalas' BlueprintsV2 at upstream commit e856903
+(Sgt-Imalas/Sgt_Imalas-Oni-Mods, 2026-09-04), published under the MIT licence. Upstream
+relicensed to All Rights Reserved at 771622f, 2026-09-07 21:57:24 UTC. That does not reach
+back: the MIT grant attached to e856903 when it was published and is not retractable.
+Nothing here comes from a later upstream revision. The evidence is in oni-mods'
+docs/blueprints-included/asset-provenance.md.
+
+What was taken from the bundle:
+
+  spec/*.json
+      The serialized state of the five prefabs Blueprints Included loads: hierarchy,
+      component list and field values. blueprintInfoScreen, which nothing loads, was
+      left out.
+
+  Assets/Sprites/Upstream/*.png
+      22 sprites the prefabs use that are not Oxygen Not Included's own art. They are
+      carried under upstream's MIT grant. Where they came from before BlueprintsV2 is not
+      recorded; some names (undo-2-xxl, parent_folder_icon_216194) suggest free icon sites.
+
+What was not taken:
+
+  Assets/Sprites/Game/*.png
+      12 sprites the bundle embedded that are Oxygen Not Included's own art. Here they are
+      plain white placeholders of the same size and border, under the same names.
+      Blueprints Included swaps in the game's sprite by name at load, so no Klei art is in
+      this repository or in the bundles it builds.
+
+  Fonts
+      The bundle embedded a NotoSans-Regular font and TMP font asset. Neither is needed:
+      labels are converted to the game's own fonts at load. Text components here use
+      Unity's built-in font, and TMP input fields carry no font asset.
+
+
+Tools
+-----
+
+tools/*.py, Assets/Editor/*.cs and build.ps1 are original to this repository.
