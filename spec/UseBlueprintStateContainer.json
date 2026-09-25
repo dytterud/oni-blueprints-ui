@@ -3417,6 +3417,1478 @@
       ]
      },
      {
+      "name": "GridSnap",
+      "active": true,
+      "layer": 5,
+      "components": [
+       {
+        "type": "RectTransform",
+        "props": {
+         "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+         },
+         "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+         },
+         "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+         },
+         "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+         },
+         "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.0
+         },
+         "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+         },
+         "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+         },
+         "m_Pivot": {
+          "x": 0.5,
+          "y": 1.0
+         }
+        }
+       },
+       {
+        "type": "CanvasRenderer",
+        "props": {
+         "m_CullTransparentMesh": true
+        }
+       },
+       {
+        "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+        "props": {
+         "m_Enabled": 1,
+         "m_IgnoreLayout": 0,
+         "m_MinWidth": -1.0,
+         "m_MinHeight": 25.0,
+         "m_PreferredWidth": -1.0,
+         "m_PreferredHeight": 25.0,
+         "m_FlexibleWidth": -1.0,
+         "m_FlexibleHeight": -1.0,
+         "m_LayoutPriority": 1
+        }
+       }
+      ],
+      "children": [
+       {
+        "name": "Checkbox",
+        "active": true,
+        "layer": 5,
+        "components": [
+         {
+          "type": "RectTransform",
+          "props": {
+           "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+           },
+           "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+           },
+           "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+           },
+           "m_AnchorMin": {
+            "x": 1.0,
+            "y": 0.5
+           },
+           "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+           },
+           "m_AnchoredPosition": {
+            "x": -8.0,
+            "y": 0.0
+           },
+           "m_SizeDelta": {
+            "x": 0.0,
+            "y": 18.0
+           },
+           "m_Pivot": {
+            "x": 1.0,
+            "y": 0.5
+           }
+          }
+         },
+         {
+          "type": "CanvasRenderer",
+          "props": {
+           "m_CullTransparentMesh": false
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Image, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_Material": null,
+           "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+           },
+           "m_RaycastTarget": 1,
+           "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+           },
+           "m_Maskable": 1,
+           "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_Sprite": {
+            "$sprite": "9pxRoundedCorner"
+           },
+           "m_Type": 1,
+           "m_PreserveAspect": 0,
+           "m_FillCenter": 1,
+           "m_FillMethod": 4,
+           "m_FillAmount": 1.0,
+           "m_FillClockwise": 1,
+           "m_FillOrigin": 0,
+           "m_UseSpriteMesh": 0,
+           "m_PixelsPerUnitMultiplier": 1.0
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Outline, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_EffectColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.5
+           },
+           "m_EffectDistance": {
+            "x": 1.0,
+            "y": -1.0
+           },
+           "m_UseGraphicAlpha": 1
+          }
+         },
+         {
+          "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_IgnoreLayout": 0,
+           "m_MinWidth": 0.0,
+           "m_MinHeight": -1.0,
+           "m_PreferredWidth": -1.0,
+           "m_PreferredHeight": -1.0,
+           "m_FlexibleWidth": -1.0,
+           "m_FlexibleHeight": -1.0,
+           "m_LayoutPriority": 1
+          }
+         },
+         {
+          "type": "UnityEngine.UI.AspectRatioFitter, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_AspectMode": 2,
+           "m_AspectRatio": 1.0
+          }
+         }
+        ],
+        "children": [
+         {
+          "name": "Checkmark",
+          "active": true,
+          "layer": 5,
+          "components": [
+           {
+            "type": "RectTransform",
+            "props": {
+             "m_LocalRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+             },
+             "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+             },
+             "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+             },
+             "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.5
+             },
+             "m_AnchorMax": {
+              "x": 1.0,
+              "y": 0.5
+             },
+             "m_AnchoredPosition": {
+              "x": 0.0,
+              "y": 0.0
+             },
+             "m_SizeDelta": {
+              "x": 0.0,
+              "y": 0.0
+             },
+             "m_Pivot": {
+              "x": 0.0,
+              "y": 0.5
+             }
+            }
+           },
+           {
+            "type": "CanvasRenderer",
+            "props": {
+             "m_CullTransparentMesh": false
+            }
+           },
+           {
+            "type": "UnityEngine.UI.Image, UnityEngine.UI",
+            "props": {
+             "m_Enabled": 1,
+             "m_Material": null,
+             "m_Color": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+             },
+             "m_RaycastTarget": 1,
+             "m_RaycastPadding": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+             },
+             "m_Maskable": 1,
+             "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+               "m_Calls": []
+              }
+             },
+             "m_Sprite": {
+              "$sprite": "Checkmark"
+             },
+             "m_Type": 0,
+             "m_PreserveAspect": 0,
+             "m_FillCenter": 1,
+             "m_FillMethod": 4,
+             "m_FillAmount": 1.0,
+             "m_FillClockwise": 1,
+             "m_FillOrigin": 0,
+             "m_UseSpriteMesh": 0,
+             "m_PixelsPerUnitMultiplier": 1.0
+            }
+           },
+           {
+            "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+            "props": {
+             "m_Enabled": 0,
+             "m_IgnoreLayout": 0,
+             "m_MinWidth": -1.0,
+             "m_MinHeight": -1.0,
+             "m_PreferredWidth": -1.0,
+             "m_PreferredHeight": -1.0,
+             "m_FlexibleWidth": -1.0,
+             "m_FlexibleHeight": -1.0,
+             "m_LayoutPriority": 1
+            }
+           },
+           {
+            "type": "UnityEngine.UI.AspectRatioFitter, UnityEngine.UI",
+            "props": {
+             "m_Enabled": 1,
+             "m_AspectMode": 1,
+             "m_AspectRatio": 1.35992431640625
+            }
+           }
+          ],
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "Label",
+        "active": true,
+        "layer": 5,
+        "components": [
+         {
+          "type": "RectTransform",
+          "props": {
+           "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+           },
+           "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+           },
+           "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+           },
+           "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.5
+           },
+           "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+           },
+           "m_AnchoredPosition": {
+            "x": -35.0,
+            "y": 0.0
+           },
+           "m_SizeDelta": {
+            "x": -35.0,
+            "y": 25.0
+           },
+           "m_Pivot": {
+            "x": 1.0,
+            "y": 0.5
+           }
+          }
+         },
+         {
+          "type": "CanvasRenderer",
+          "props": {
+           "m_CullTransparentMesh": false
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Text, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_Material": null,
+           "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+           },
+           "m_RaycastTarget": 1,
+           "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+           },
+           "m_Maskable": 1,
+           "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_FontData": {
+            "m_Font": {
+             "$builtinFont": "LegacyRuntime.ttf"
+            },
+            "m_FontSize": 14,
+            "m_FontStyle": 0,
+            "m_BestFit": 0,
+            "m_MinSize": 10,
+            "m_MaxSize": 40,
+            "m_Alignment": 0,
+            "m_AlignByGeometry": 0,
+            "m_RichText": 1,
+            "m_HorizontalOverflow": 0,
+            "m_VerticalOverflow": 0,
+            "m_LineSpacing": 1.0
+           },
+           "m_Text": "{\r\n  \"Font\": \"NotoSans-Regular SDF\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 12.0,\r\n  \"Alignment\": 513,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": true,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"STRINGS.UI.USEBLUEPRINTSTATECONTAINER.INFOITEMSCONTAINER.GRIDSNAP.LABEL\",\r\n  \"X\": -35.0,\r\n  \"Y\": 25.0,\r\n  \"Color\": [\r\n    1.0,\r\n    1.0,\r\n    1.0\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 12.0,\r\n  \"VariableFontSizeMinimum\": 10.0,\r\n  \"Overflow\": 0\r\n}"
+          }
+         }
+        ],
+        "children": []
+       },
+       {
+        "name": "HeightInput",
+        "active": true,
+        "layer": 5,
+        "components": [
+         {
+          "type": "RectTransform",
+          "props": {
+           "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+           },
+           "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+           },
+           "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+           },
+           "m_AnchorMin": {
+            "x": 1.0,
+            "y": 0.5
+           },
+           "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+           },
+           "m_AnchoredPosition": {
+            "x": -32.0,
+            "y": 0.0
+           },
+           "m_SizeDelta": {
+            "x": 40.0,
+            "y": 18.0
+           },
+           "m_Pivot": {
+            "x": 1.0,
+            "y": 0.5
+           }
+          }
+         },
+         {
+          "type": "CanvasRenderer",
+          "props": {
+           "m_CullTransparentMesh": true
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Image, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_Material": null,
+           "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+           },
+           "m_RaycastTarget": 1,
+           "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+           },
+           "m_Maskable": 1,
+           "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_Sprite": {
+            "$sprite": "web_title"
+           },
+           "m_Type": 0,
+           "m_PreserveAspect": 0,
+           "m_FillCenter": 1,
+           "m_FillMethod": 4,
+           "m_FillAmount": 1.0,
+           "m_FillClockwise": 1,
+           "m_FillOrigin": 0,
+           "m_UseSpriteMesh": 0,
+           "m_PixelsPerUnitMultiplier": 1.0
+          }
+         },
+         {
+          "type": "TMPro.TMP_InputField, Unity.TextMeshPro",
+          "props": {
+           "m_Enabled": 1,
+           "m_Navigation": {
+            "m_Mode": -1,
+            "m_WrapAround": 1,
+            "m_SelectOnUp": null,
+            "m_SelectOnDown": null,
+            "m_SelectOnLeft": null,
+            "m_SelectOnRight": null
+           },
+           "m_Transition": 1,
+           "m_Colors": {
+            "m_NormalColor": {
+             "r": 1.0,
+             "g": 1.0,
+             "b": 1.0,
+             "a": 1.0
+            },
+            "m_HighlightedColor": {
+             "r": 0.9607843160629272,
+             "g": 0.9607843160629272,
+             "b": 0.9607843160629272,
+             "a": 1.0
+            },
+            "m_PressedColor": {
+             "r": 0.7843137383460999,
+             "g": 0.7843137383460999,
+             "b": 0.7843137383460999,
+             "a": 1.0
+            },
+            "m_SelectedColor": {
+             "r": 0.9607843160629272,
+             "g": 0.9607843160629272,
+             "b": 0.9607843160629272,
+             "a": 1.0
+            },
+            "m_DisabledColor": {
+             "r": 0.7843137383460999,
+             "g": 0.7843137383460999,
+             "b": 0.7843137383460999,
+             "a": 0.501960813999176
+            },
+            "m_ColorMultiplier": 1.0,
+            "m_FadeDuration": 0.10000000149011612
+           },
+           "m_SpriteState": {
+            "m_HighlightedSprite": null,
+            "m_PressedSprite": null,
+            "m_SelectedSprite": null,
+            "m_DisabledSprite": null
+           },
+           "m_AnimationTriggers": {
+            "m_NormalTrigger": "Normal",
+            "m_HighlightedTrigger": "Highlighted",
+            "m_PressedTrigger": "Pressed",
+            "m_SelectedTrigger": "Selected",
+            "m_DisabledTrigger": "Disabled"
+           },
+           "m_Interactable": 1,
+           "m_TargetGraphic": {
+            "$ref": "1/9/2",
+            "$type": "UnityEngine.UI.Image, UnityEngine.UI",
+            "$name": "HeightInput"
+           },
+           "m_TextViewport": {
+            "$ref": "1/9/2/0",
+            "$type": "RectTransform",
+            "$name": "TextArea"
+           },
+           "m_TextComponent": null,
+           "m_Placeholder": null,
+           "m_VerticalScrollbar": null,
+           "m_VerticalScrollbarEventHandler": null,
+           "m_LayoutGroup": null,
+           "m_ScrollSensitivity": 1.0,
+           "m_ContentType": 0,
+           "m_InputType": 0,
+           "m_AsteriskChar": 42,
+           "m_KeyboardType": 0,
+           "m_LineType": 0,
+           "m_HideMobileInput": 0,
+           "m_HideSoftKeyboard": 0,
+           "m_CharacterValidation": 0,
+           "m_RegexValue": "",
+           "m_GlobalPointSize": 16.0,
+           "m_CharacterLimit": 0,
+           "m_OnEndEdit": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnSubmit": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnSelect": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnDeselect": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnTextSelection": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnEndTextSelection": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnValueChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnTouchScreenKeyboardStatusChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_CaretColor": {
+            "r": 0.19607843458652496,
+            "g": 0.19607843458652496,
+            "b": 0.19607843458652496,
+            "a": 1.0
+           },
+           "m_CustomCaretColor": 0,
+           "m_SelectionColor": {
+            "r": 0.658823549747467,
+            "g": 0.8078431487083435,
+            "b": 1.0,
+            "a": 0.7529411911964417
+           },
+           "m_Text": "",
+           "m_CaretBlinkRate": 0.8500000238418579,
+           "m_CaretWidth": 1,
+           "m_ReadOnly": 0,
+           "m_RichText": 0,
+           "m_GlobalFontAsset": null,
+           "m_OnFocusSelectAll": 0,
+           "m_ResetOnDeActivation": 1,
+           "m_KeepTextSelectionVisible": 0,
+           "m_RestoreOriginalTextOnEscape": 1,
+           "m_isRichTextEditingAllowed": 0,
+           "m_LineLimit": 0,
+           "isAlert": 0,
+           "m_InputValidator": null,
+           "m_ShouldActivateOnSelect": 1
+          }
+         }
+        ],
+        "children": [
+         {
+          "name": "TextArea",
+          "active": true,
+          "layer": 5,
+          "components": [
+           {
+            "type": "RectTransform",
+            "props": {
+             "m_LocalRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+             },
+             "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+             },
+             "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+             },
+             "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+             },
+             "m_AnchorMax": {
+              "x": 1.0,
+              "y": 1.0
+             },
+             "m_AnchoredPosition": {
+              "x": 0.0,
+              "y": 0.0
+             },
+             "m_SizeDelta": {
+              "x": -6.0,
+              "y": 0.0
+             },
+             "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+             }
+            }
+           },
+           {
+            "type": "UnityEngine.UI.RectMask2D, UnityEngine.UI",
+            "props": {
+             "m_Enabled": 1,
+             "m_Padding": {
+              "x": -8.0,
+              "y": -5.0,
+              "z": -8.0,
+              "w": -5.0
+             },
+             "m_Softness": {
+              "x": 0,
+              "y": 0
+             }
+            }
+           }
+          ],
+          "children": [
+           {
+            "name": "Placeholder",
+            "active": true,
+            "layer": 5,
+            "components": [
+             {
+              "type": "RectTransform",
+              "props": {
+               "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+               },
+               "m_LocalPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+               },
+               "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+               },
+               "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+               },
+               "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+               }
+              }
+             },
+             {
+              "type": "CanvasRenderer",
+              "props": {
+               "m_CullTransparentMesh": true
+              }
+             },
+             {
+              "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+              "props": {
+               "m_Enabled": 1,
+               "m_IgnoreLayout": 1,
+               "m_MinWidth": -1.0,
+               "m_MinHeight": -1.0,
+               "m_PreferredWidth": -1.0,
+               "m_PreferredHeight": -1.0,
+               "m_FlexibleWidth": -1.0,
+               "m_FlexibleHeight": -1.0,
+               "m_LayoutPriority": 1
+              }
+             },
+             {
+              "type": "UnityEngine.UI.Text, UnityEngine.UI",
+              "props": {
+               "m_Enabled": 1,
+               "m_Material": null,
+               "m_Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+               },
+               "m_RaycastTarget": 1,
+               "m_RaycastPadding": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+               },
+               "m_Maskable": 1,
+               "m_OnCullStateChanged": {
+                "m_PersistentCalls": {
+                 "m_Calls": []
+                }
+               },
+               "m_FontData": {
+                "m_Font": {
+                 "$builtinFont": "LegacyRuntime.ttf"
+                },
+                "m_FontSize": 14,
+                "m_FontStyle": 0,
+                "m_BestFit": 0,
+                "m_MinSize": 10,
+                "m_MaxSize": 40,
+                "m_Alignment": 0,
+                "m_AlignByGeometry": 0,
+                "m_RichText": 1,
+                "m_HorizontalOverflow": 0,
+                "m_VerticalOverflow": 0,
+                "m_LineSpacing": 1.0
+               },
+               "m_Text": "{\r\n  \"Font\": \"NotoSans-Regular SDF\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 16.0,\r\n  \"Alignment\": 514,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": true,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"\",\r\n  \"X\": 0.0,\r\n  \"Y\": 0.0,\r\n  \"Color\": [\r\n    0.196078435,\r\n    0.196078435,\r\n    0.196078435\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 12.0,\r\n  \"VariableFontSizeMinimum\": 12.0,\r\n  \"Overflow\": 0\r\n}"
+              }
+             }
+            ],
+            "children": []
+           },
+           {
+            "name": "Text",
+            "active": true,
+            "layer": 5,
+            "components": [
+             {
+              "type": "RectTransform",
+              "props": {
+               "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+               },
+               "m_LocalPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+               },
+               "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+               },
+               "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+               },
+               "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+               }
+              }
+             },
+             {
+              "type": "CanvasRenderer",
+              "props": {
+               "m_CullTransparentMesh": true
+              }
+             },
+             {
+              "type": "UnityEngine.UI.Text, UnityEngine.UI",
+              "props": {
+               "m_Enabled": 1,
+               "m_Material": null,
+               "m_Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+               },
+               "m_RaycastTarget": 1,
+               "m_RaycastPadding": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+               },
+               "m_Maskable": 1,
+               "m_OnCullStateChanged": {
+                "m_PersistentCalls": {
+                 "m_Calls": []
+                }
+               },
+               "m_FontData": {
+                "m_Font": {
+                 "$builtinFont": "LegacyRuntime.ttf"
+                },
+                "m_FontSize": 14,
+                "m_FontStyle": 0,
+                "m_BestFit": 0,
+                "m_MinSize": 10,
+                "m_MaxSize": 40,
+                "m_Alignment": 0,
+                "m_AlignByGeometry": 0,
+                "m_RichText": 1,
+                "m_HorizontalOverflow": 0,
+                "m_VerticalOverflow": 0,
+                "m_LineSpacing": 1.0
+               },
+               "m_Text": "{\r\n  \"Font\": \"NotoSans-Regular SDF\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 18.0,\r\n  \"Alignment\": 514,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": false,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"\",\r\n  \"X\": 0.0,\r\n  \"Y\": 0.0,\r\n  \"Color\": [\r\n    0.0,\r\n    0.0,\r\n    0.0\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 12.0,\r\n  \"VariableFontSizeMinimum\": 12.0,\r\n  \"Overflow\": 0\r\n}"
+              }
+             }
+            ],
+            "children": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "WidthInput",
+        "active": true,
+        "layer": 5,
+        "components": [
+         {
+          "type": "RectTransform",
+          "props": {
+           "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+           },
+           "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+           },
+           "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+           },
+           "m_AnchorMin": {
+            "x": 1.0,
+            "y": 0.5
+           },
+           "m_AnchorMax": {
+            "x": 1.0,
+            "y": 0.5
+           },
+           "m_AnchoredPosition": {
+            "x": -78.0,
+            "y": 0.0
+           },
+           "m_SizeDelta": {
+            "x": 40.0,
+            "y": 18.0
+           },
+           "m_Pivot": {
+            "x": 1.0,
+            "y": 0.5
+           }
+          }
+         },
+         {
+          "type": "CanvasRenderer",
+          "props": {
+           "m_CullTransparentMesh": true
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Image, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_Material": null,
+           "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+           },
+           "m_RaycastTarget": 1,
+           "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+           },
+           "m_Maskable": 1,
+           "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_Sprite": {
+            "$sprite": "web_title"
+           },
+           "m_Type": 0,
+           "m_PreserveAspect": 0,
+           "m_FillCenter": 1,
+           "m_FillMethod": 4,
+           "m_FillAmount": 1.0,
+           "m_FillClockwise": 1,
+           "m_FillOrigin": 0,
+           "m_UseSpriteMesh": 0,
+           "m_PixelsPerUnitMultiplier": 1.0
+          }
+         },
+         {
+          "type": "TMPro.TMP_InputField, Unity.TextMeshPro",
+          "props": {
+           "m_Enabled": 1,
+           "m_Navigation": {
+            "m_Mode": -1,
+            "m_WrapAround": 1,
+            "m_SelectOnUp": null,
+            "m_SelectOnDown": null,
+            "m_SelectOnLeft": null,
+            "m_SelectOnRight": null
+           },
+           "m_Transition": 1,
+           "m_Colors": {
+            "m_NormalColor": {
+             "r": 1.0,
+             "g": 1.0,
+             "b": 1.0,
+             "a": 1.0
+            },
+            "m_HighlightedColor": {
+             "r": 0.9607843160629272,
+             "g": 0.9607843160629272,
+             "b": 0.9607843160629272,
+             "a": 1.0
+            },
+            "m_PressedColor": {
+             "r": 0.7843137383460999,
+             "g": 0.7843137383460999,
+             "b": 0.7843137383460999,
+             "a": 1.0
+            },
+            "m_SelectedColor": {
+             "r": 0.9607843160629272,
+             "g": 0.9607843160629272,
+             "b": 0.9607843160629272,
+             "a": 1.0
+            },
+            "m_DisabledColor": {
+             "r": 0.7843137383460999,
+             "g": 0.7843137383460999,
+             "b": 0.7843137383460999,
+             "a": 0.501960813999176
+            },
+            "m_ColorMultiplier": 1.0,
+            "m_FadeDuration": 0.10000000149011612
+           },
+           "m_SpriteState": {
+            "m_HighlightedSprite": null,
+            "m_PressedSprite": null,
+            "m_SelectedSprite": null,
+            "m_DisabledSprite": null
+           },
+           "m_AnimationTriggers": {
+            "m_NormalTrigger": "Normal",
+            "m_HighlightedTrigger": "Highlighted",
+            "m_PressedTrigger": "Pressed",
+            "m_SelectedTrigger": "Selected",
+            "m_DisabledTrigger": "Disabled"
+           },
+           "m_Interactable": 1,
+           "m_TargetGraphic": {
+            "$ref": "1/9/3",
+            "$type": "UnityEngine.UI.Image, UnityEngine.UI",
+            "$name": "WidthInput"
+           },
+           "m_TextViewport": {
+            "$ref": "1/9/3/0",
+            "$type": "RectTransform",
+            "$name": "TextArea"
+           },
+           "m_TextComponent": null,
+           "m_Placeholder": null,
+           "m_VerticalScrollbar": null,
+           "m_VerticalScrollbarEventHandler": null,
+           "m_LayoutGroup": null,
+           "m_ScrollSensitivity": 1.0,
+           "m_ContentType": 0,
+           "m_InputType": 0,
+           "m_AsteriskChar": 42,
+           "m_KeyboardType": 0,
+           "m_LineType": 0,
+           "m_HideMobileInput": 0,
+           "m_HideSoftKeyboard": 0,
+           "m_CharacterValidation": 0,
+           "m_RegexValue": "",
+           "m_GlobalPointSize": 16.0,
+           "m_CharacterLimit": 0,
+           "m_OnEndEdit": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnSubmit": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnSelect": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnDeselect": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnTextSelection": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnEndTextSelection": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnValueChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_OnTouchScreenKeyboardStatusChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_CaretColor": {
+            "r": 0.19607843458652496,
+            "g": 0.19607843458652496,
+            "b": 0.19607843458652496,
+            "a": 1.0
+           },
+           "m_CustomCaretColor": 0,
+           "m_SelectionColor": {
+            "r": 0.658823549747467,
+            "g": 0.8078431487083435,
+            "b": 1.0,
+            "a": 0.7529411911964417
+           },
+           "m_Text": "",
+           "m_CaretBlinkRate": 0.8500000238418579,
+           "m_CaretWidth": 1,
+           "m_ReadOnly": 0,
+           "m_RichText": 0,
+           "m_GlobalFontAsset": null,
+           "m_OnFocusSelectAll": 0,
+           "m_ResetOnDeActivation": 1,
+           "m_KeepTextSelectionVisible": 0,
+           "m_RestoreOriginalTextOnEscape": 1,
+           "m_isRichTextEditingAllowed": 0,
+           "m_LineLimit": 0,
+           "isAlert": 0,
+           "m_InputValidator": null,
+           "m_ShouldActivateOnSelect": 1
+          }
+         }
+        ],
+        "children": [
+         {
+          "name": "TextArea",
+          "active": true,
+          "layer": 5,
+          "components": [
+           {
+            "type": "RectTransform",
+            "props": {
+             "m_LocalRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+             },
+             "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+             },
+             "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+             },
+             "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+             },
+             "m_AnchorMax": {
+              "x": 1.0,
+              "y": 1.0
+             },
+             "m_AnchoredPosition": {
+              "x": 0.0,
+              "y": 0.0
+             },
+             "m_SizeDelta": {
+              "x": -6.0,
+              "y": 0.0
+             },
+             "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+             }
+            }
+           },
+           {
+            "type": "UnityEngine.UI.RectMask2D, UnityEngine.UI",
+            "props": {
+             "m_Enabled": 1,
+             "m_Padding": {
+              "x": -8.0,
+              "y": -5.0,
+              "z": -8.0,
+              "w": -5.0
+             },
+             "m_Softness": {
+              "x": 0,
+              "y": 0
+             }
+            }
+           }
+          ],
+          "children": [
+           {
+            "name": "Placeholder",
+            "active": true,
+            "layer": 5,
+            "components": [
+             {
+              "type": "RectTransform",
+              "props": {
+               "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+               },
+               "m_LocalPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+               },
+               "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+               },
+               "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+               },
+               "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_Pivot": {
+                "x": 0.5,
+                "y": 1.0
+               }
+              }
+             },
+             {
+              "type": "CanvasRenderer",
+              "props": {
+               "m_CullTransparentMesh": true
+              }
+             },
+             {
+              "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+              "props": {
+               "m_Enabled": 1,
+               "m_IgnoreLayout": 1,
+               "m_MinWidth": -1.0,
+               "m_MinHeight": -1.0,
+               "m_PreferredWidth": -1.0,
+               "m_PreferredHeight": -1.0,
+               "m_FlexibleWidth": -1.0,
+               "m_FlexibleHeight": -1.0,
+               "m_LayoutPriority": 1
+              }
+             },
+             {
+              "type": "UnityEngine.UI.Text, UnityEngine.UI",
+              "props": {
+               "m_Enabled": 1,
+               "m_Material": null,
+               "m_Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+               },
+               "m_RaycastTarget": 1,
+               "m_RaycastPadding": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+               },
+               "m_Maskable": 1,
+               "m_OnCullStateChanged": {
+                "m_PersistentCalls": {
+                 "m_Calls": []
+                }
+               },
+               "m_FontData": {
+                "m_Font": {
+                 "$builtinFont": "LegacyRuntime.ttf"
+                },
+                "m_FontSize": 14,
+                "m_FontStyle": 0,
+                "m_BestFit": 0,
+                "m_MinSize": 10,
+                "m_MaxSize": 40,
+                "m_Alignment": 0,
+                "m_AlignByGeometry": 0,
+                "m_RichText": 1,
+                "m_HorizontalOverflow": 0,
+                "m_VerticalOverflow": 0,
+                "m_LineSpacing": 1.0
+               },
+               "m_Text": "{\r\n  \"Font\": \"NotoSans-Regular SDF\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 16.0,\r\n  \"Alignment\": 514,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": true,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"\",\r\n  \"X\": 0.0,\r\n  \"Y\": 0.0,\r\n  \"Color\": [\r\n    0.196078435,\r\n    0.196078435,\r\n    0.196078435\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 12.0,\r\n  \"VariableFontSizeMinimum\": 12.0,\r\n  \"Overflow\": 0\r\n}"
+              }
+             }
+            ],
+            "children": []
+           },
+           {
+            "name": "Text",
+            "active": true,
+            "layer": 5,
+            "components": [
+             {
+              "type": "RectTransform",
+              "props": {
+               "m_LocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+               },
+               "m_LocalPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+               },
+               "m_LocalScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+               },
+               "m_AnchorMin": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_AnchorMax": {
+                "x": 1.0,
+                "y": 1.0
+               },
+               "m_AnchoredPosition": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_SizeDelta": {
+                "x": 0.0,
+                "y": 0.0
+               },
+               "m_Pivot": {
+                "x": 0.5,
+                "y": 0.5
+               }
+              }
+             },
+             {
+              "type": "CanvasRenderer",
+              "props": {
+               "m_CullTransparentMesh": true
+              }
+             },
+             {
+              "type": "UnityEngine.UI.Text, UnityEngine.UI",
+              "props": {
+               "m_Enabled": 1,
+               "m_Material": null,
+               "m_Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+               },
+               "m_RaycastTarget": 1,
+               "m_RaycastPadding": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+               },
+               "m_Maskable": 1,
+               "m_OnCullStateChanged": {
+                "m_PersistentCalls": {
+                 "m_Calls": []
+                }
+               },
+               "m_FontData": {
+                "m_Font": {
+                 "$builtinFont": "LegacyRuntime.ttf"
+                },
+                "m_FontSize": 14,
+                "m_FontStyle": 0,
+                "m_BestFit": 0,
+                "m_MinSize": 10,
+                "m_MaxSize": 40,
+                "m_Alignment": 0,
+                "m_AlignByGeometry": 0,
+                "m_RichText": 1,
+                "m_HorizontalOverflow": 0,
+                "m_VerticalOverflow": 0,
+                "m_LineSpacing": 1.0
+               },
+               "m_Text": "{\r\n  \"Font\": \"NotoSans-Regular SDF\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 18.0,\r\n  \"Alignment\": 514,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": false,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"\",\r\n  \"X\": 0.0,\r\n  \"Y\": 0.0,\r\n  \"Color\": [\r\n    0.0,\r\n    0.0,\r\n    0.0\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 12.0,\r\n  \"VariableFontSizeMinimum\": 12.0,\r\n  \"Overflow\": 0\r\n}"
+              }
+             }
+            ],
+            "children": []
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
       "name": "ForceRebuild",
       "active": true,
       "layer": 5,
@@ -4905,7 +6377,7 @@
            },
            "m_Interactable": 1,
            "m_TargetGraphic": {
-            "$ref": "1/12/0",
+            "$ref": "1/13/0",
             "$type": "UnityEngine.UI.Image, UnityEngine.UI",
             "$name": "Button"
            },
@@ -5056,6 +6528,717 @@
               "m_LineSpacing": 1.0
              },
              "m_Text": "{\r\n  \"Font\": \"NotoSans-Regular SDF\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 11.25,\r\n  \"Alignment\": 513,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": true,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"STRINGS.UI.USEBLUEPRINTSTATECONTAINER.INFOITEMSCONTAINER.MATERIALOVERRIDES.BUTTON.LABEL\",\r\n  \"X\": -10.0,\r\n  \"Y\": -4.0,\r\n  \"Color\": [\r\n    1.0,\r\n    1.0,\r\n    1.0\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 12.0,\r\n  \"VariableFontSizeMinimum\": 6.0,\r\n  \"Overflow\": 1\r\n}"
+            }
+           }
+          ],
+          "children": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "ExportActions",
+      "active": true,
+      "layer": 5,
+      "components": [
+       {
+        "type": "RectTransform",
+        "props": {
+         "m_LocalRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+         },
+         "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+         },
+         "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+         },
+         "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+         },
+         "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.0
+         },
+         "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+         },
+         "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+         },
+         "m_Pivot": {
+          "x": 0.5,
+          "y": 1.0
+         }
+        }
+       },
+       {
+        "type": "CanvasRenderer",
+        "props": {
+         "m_CullTransparentMesh": true
+        }
+       },
+       {
+        "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+        "props": {
+         "m_Enabled": 1,
+         "m_IgnoreLayout": 0,
+         "m_MinWidth": -1.0,
+         "m_MinHeight": 30.0,
+         "m_PreferredWidth": -1.0,
+         "m_PreferredHeight": 30.0,
+         "m_FlexibleWidth": -1.0,
+         "m_FlexibleHeight": -1.0,
+         "m_LayoutPriority": 1
+        }
+       },
+       {
+        "type": "UnityEngine.UI.HorizontalLayoutGroup, UnityEngine.UI",
+        "props": {
+         "m_Enabled": 1,
+         "m_Padding": {
+          "m_Left": 0,
+          "m_Right": 5,
+          "m_Top": 0,
+          "m_Bottom": 0
+         },
+         "m_ChildAlignment": 5,
+         "m_Spacing": 4.0,
+         "m_ChildForceExpandWidth": 0,
+         "m_ChildForceExpandHeight": 0,
+         "m_ChildControlWidth": 1,
+         "m_ChildControlHeight": 0,
+         "m_ChildScaleWidth": 0,
+         "m_ChildScaleHeight": 0,
+         "m_ReverseArrangement": 0
+        }
+       }
+      ],
+      "children": [
+       {
+        "name": "Save",
+        "active": true,
+        "layer": 5,
+        "components": [
+         {
+          "type": "RectTransform",
+          "props": {
+           "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+           },
+           "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+           },
+           "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+           },
+           "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+           },
+           "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.0
+           },
+           "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+           },
+           "m_SizeDelta": {
+            "x": 0.0,
+            "y": 25.0
+           },
+           "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+           }
+          }
+         },
+         {
+          "type": "CanvasRenderer",
+          "props": {
+           "m_CullTransparentMesh": false
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Image, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_Material": null,
+           "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+           },
+           "m_RaycastTarget": 1,
+           "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+           },
+           "m_Maskable": 1,
+           "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_Sprite": {
+            "$sprite": "button"
+           },
+           "m_Type": 1,
+           "m_PreserveAspect": 0,
+           "m_FillCenter": 1,
+           "m_FillMethod": 4,
+           "m_FillAmount": 1.0,
+           "m_FillClockwise": 1,
+           "m_FillOrigin": 0,
+           "m_UseSpriteMesh": 0,
+           "m_PixelsPerUnitMultiplier": 1.0
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Button, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_Navigation": {
+            "m_Mode": 3,
+            "m_WrapAround": 0,
+            "m_SelectOnUp": null,
+            "m_SelectOnDown": null,
+            "m_SelectOnLeft": null,
+            "m_SelectOnRight": null
+           },
+           "m_Transition": 1,
+           "m_Colors": {
+            "m_NormalColor": {
+             "r": 0.5254902243614197,
+             "g": 0.2705882489681244,
+             "b": 0.3960784673690796,
+             "a": 1.0
+            },
+            "m_HighlightedColor": {
+             "r": 0.6117647290229797,
+             "g": 0.3294117748737335,
+             "b": 0.4745098054409027,
+             "a": 1.0
+            },
+            "m_PressedColor": {
+             "r": 0.7882353067398071,
+             "g": 0.4470588266849518,
+             "b": 0.6235294342041016,
+             "a": 1.0
+            },
+            "m_SelectedColor": {
+             "r": 0.6117647290229797,
+             "g": 0.3294117748737335,
+             "b": 0.4745098054409027,
+             "a": 1.0
+            },
+            "m_DisabledColor": {
+             "r": 0.7843137383460999,
+             "g": 0.7843137383460999,
+             "b": 0.7843137383460999,
+             "a": 0.501960813999176
+            },
+            "m_ColorMultiplier": 1.0,
+            "m_FadeDuration": 0.0
+           },
+           "m_SpriteState": {
+            "m_HighlightedSprite": null,
+            "m_PressedSprite": null,
+            "m_SelectedSprite": null,
+            "m_DisabledSprite": null
+           },
+           "m_AnimationTriggers": {
+            "m_NormalTrigger": "Normal",
+            "m_HighlightedTrigger": "Highlighted",
+            "m_PressedTrigger": "Pressed",
+            "m_SelectedTrigger": "Highlighted",
+            "m_DisabledTrigger": "Disabled"
+           },
+           "m_Interactable": 1,
+           "m_TargetGraphic": {
+            "$ref": "1/14/0",
+            "$type": "UnityEngine.UI.Image, UnityEngine.UI",
+            "$name": "Save"
+           },
+           "m_OnClick": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           }
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Outline, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_EffectColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.5
+           },
+           "m_EffectDistance": {
+            "x": 1.0,
+            "y": -1.0
+           },
+           "m_UseGraphicAlpha": 1
+          }
+         },
+         {
+          "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_IgnoreLayout": 0,
+           "m_MinWidth": -1.0,
+           "m_MinHeight": -1.0,
+           "m_PreferredWidth": -1.0,
+           "m_PreferredHeight": -1.0,
+           "m_FlexibleWidth": 1.0,
+           "m_FlexibleHeight": -1.0,
+           "m_LayoutPriority": 1
+          }
+         }
+        ],
+        "children": [
+         {
+          "name": "Label",
+          "active": true,
+          "layer": 5,
+          "components": [
+           {
+            "type": "RectTransform",
+            "props": {
+             "m_LocalRotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+             },
+             "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+             },
+             "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+             },
+             "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+             },
+             "m_AnchorMax": {
+              "x": 1.0,
+              "y": 1.0
+             },
+             "m_AnchoredPosition": {
+              "x": -5.0,
+              "y": 1.0
+             },
+             "m_SizeDelta": {
+              "x": -10.0,
+              "y": -4.0
+             },
+             "m_Pivot": {
+              "x": 1.0,
+              "y": 0.5
+             }
+            }
+           },
+           {
+            "type": "CanvasRenderer",
+            "props": {
+             "m_CullTransparentMesh": false
+            }
+           },
+           {
+            "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+            "props": {
+             "m_Enabled": 1,
+             "m_IgnoreLayout": 0,
+             "m_MinWidth": -1.0,
+             "m_MinHeight": -1.0,
+             "m_PreferredWidth": -40.0,
+             "m_PreferredHeight": -1.0,
+             "m_FlexibleWidth": 1.0,
+             "m_FlexibleHeight": -1.0,
+             "m_LayoutPriority": 1
+            }
+           },
+           {
+            "type": "UnityEngine.UI.Text, UnityEngine.UI",
+            "props": {
+             "m_Enabled": 1,
+             "m_Material": null,
+             "m_Color": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+             },
+             "m_RaycastTarget": 1,
+             "m_RaycastPadding": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+             },
+             "m_Maskable": 1,
+             "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+               "m_Calls": []
+              }
+             },
+             "m_FontData": {
+              "m_Font": {
+               "$builtinFont": "LegacyRuntime.ttf"
+              },
+              "m_FontSize": 14,
+              "m_FontStyle": 0,
+              "m_BestFit": 0,
+              "m_MinSize": 10,
+              "m_MaxSize": 40,
+              "m_Alignment": 0,
+              "m_AlignByGeometry": 0,
+              "m_RichText": 1,
+              "m_HorizontalOverflow": 0,
+              "m_VerticalOverflow": 0,
+              "m_LineSpacing": 1.0
+             },
+             "m_Text": "{\r\n  \"Font\": \"NotoSans-Regular SDF\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 11.25,\r\n  \"Alignment\": 513,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": true,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"STRINGS.UI.USEBLUEPRINTSTATECONTAINER.INFOITEMSCONTAINER.EXPORTACTIONS.SAVE_LABEL\",\r\n  \"X\": -10.0,\r\n  \"Y\": -4.0,\r\n  \"Color\": [\r\n    1.0,\r\n    1.0,\r\n    1.0\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 12.0,\r\n  \"VariableFontSizeMinimum\": 6.0,\r\n  \"Overflow\": 1\r\n}"
+            }
+           }
+          ],
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "Export",
+        "active": true,
+        "layer": 5,
+        "components": [
+         {
+          "type": "RectTransform",
+          "props": {
+           "m_LocalRotation": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -0.0,
+            "w": 1.0
+           },
+           "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+           },
+           "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+           },
+           "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+           },
+           "m_AnchorMax": {
+            "x": 0.0,
+            "y": 0.0
+           },
+           "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+           },
+           "m_SizeDelta": {
+            "x": 0.0,
+            "y": 25.0
+           },
+           "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+           }
+          }
+         },
+         {
+          "type": "CanvasRenderer",
+          "props": {
+           "m_CullTransparentMesh": false
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Image, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_Material": null,
+           "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+           },
+           "m_RaycastTarget": 1,
+           "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+           },
+           "m_Maskable": 1,
+           "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           },
+           "m_Sprite": {
+            "$sprite": "button"
+           },
+           "m_Type": 1,
+           "m_PreserveAspect": 0,
+           "m_FillCenter": 1,
+           "m_FillMethod": 4,
+           "m_FillAmount": 1.0,
+           "m_FillClockwise": 1,
+           "m_FillOrigin": 0,
+           "m_UseSpriteMesh": 0,
+           "m_PixelsPerUnitMultiplier": 1.0
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Button, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_Navigation": {
+            "m_Mode": 3,
+            "m_WrapAround": 0,
+            "m_SelectOnUp": null,
+            "m_SelectOnDown": null,
+            "m_SelectOnLeft": null,
+            "m_SelectOnRight": null
+           },
+           "m_Transition": 1,
+           "m_Colors": {
+            "m_NormalColor": {
+             "r": 0.5254902243614197,
+             "g": 0.2705882489681244,
+             "b": 0.3960784673690796,
+             "a": 1.0
+            },
+            "m_HighlightedColor": {
+             "r": 0.6117647290229797,
+             "g": 0.3294117748737335,
+             "b": 0.4745098054409027,
+             "a": 1.0
+            },
+            "m_PressedColor": {
+             "r": 0.7882353067398071,
+             "g": 0.4470588266849518,
+             "b": 0.6235294342041016,
+             "a": 1.0
+            },
+            "m_SelectedColor": {
+             "r": 0.6117647290229797,
+             "g": 0.3294117748737335,
+             "b": 0.4745098054409027,
+             "a": 1.0
+            },
+            "m_DisabledColor": {
+             "r": 0.7843137383460999,
+             "g": 0.7843137383460999,
+             "b": 0.7843137383460999,
+             "a": 0.501960813999176
+            },
+            "m_ColorMultiplier": 1.0,
+            "m_FadeDuration": 0.0
+           },
+           "m_SpriteState": {
+            "m_HighlightedSprite": null,
+            "m_PressedSprite": null,
+            "m_SelectedSprite": null,
+            "m_DisabledSprite": null
+           },
+           "m_AnimationTriggers": {
+            "m_NormalTrigger": "Normal",
+            "m_HighlightedTrigger": "Highlighted",
+            "m_PressedTrigger": "Pressed",
+            "m_SelectedTrigger": "Highlighted",
+            "m_DisabledTrigger": "Disabled"
+           },
+           "m_Interactable": 1,
+           "m_TargetGraphic": {
+            "$ref": "1/14/1",
+            "$type": "UnityEngine.UI.Image, UnityEngine.UI",
+            "$name": "Export"
+           },
+           "m_OnClick": {
+            "m_PersistentCalls": {
+             "m_Calls": []
+            }
+           }
+          }
+         },
+         {
+          "type": "UnityEngine.UI.Outline, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_EffectColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.5
+           },
+           "m_EffectDistance": {
+            "x": 1.0,
+            "y": -1.0
+           },
+           "m_UseGraphicAlpha": 1
+          }
+         },
+         {
+          "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+          "props": {
+           "m_Enabled": 1,
+           "m_IgnoreLayout": 0,
+           "m_MinWidth": -1.0,
+           "m_MinHeight": -1.0,
+           "m_PreferredWidth": -1.0,
+           "m_PreferredHeight": -1.0,
+           "m_FlexibleWidth": 1.0,
+           "m_FlexibleHeight": -1.0,
+           "m_LayoutPriority": 1
+          }
+         }
+        ],
+        "children": [
+         {
+          "name": "Label",
+          "active": true,
+          "layer": 5,
+          "components": [
+           {
+            "type": "RectTransform",
+            "props": {
+             "m_LocalRotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+             },
+             "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+             },
+             "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+             },
+             "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+             },
+             "m_AnchorMax": {
+              "x": 1.0,
+              "y": 1.0
+             },
+             "m_AnchoredPosition": {
+              "x": -5.0,
+              "y": 1.0
+             },
+             "m_SizeDelta": {
+              "x": -10.0,
+              "y": -4.0
+             },
+             "m_Pivot": {
+              "x": 1.0,
+              "y": 0.5
+             }
+            }
+           },
+           {
+            "type": "CanvasRenderer",
+            "props": {
+             "m_CullTransparentMesh": false
+            }
+           },
+           {
+            "type": "UnityEngine.UI.LayoutElement, UnityEngine.UI",
+            "props": {
+             "m_Enabled": 1,
+             "m_IgnoreLayout": 0,
+             "m_MinWidth": -1.0,
+             "m_MinHeight": -1.0,
+             "m_PreferredWidth": -40.0,
+             "m_PreferredHeight": -1.0,
+             "m_FlexibleWidth": 1.0,
+             "m_FlexibleHeight": -1.0,
+             "m_LayoutPriority": 1
+            }
+           },
+           {
+            "type": "UnityEngine.UI.Text, UnityEngine.UI",
+            "props": {
+             "m_Enabled": 1,
+             "m_Material": null,
+             "m_Color": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+             },
+             "m_RaycastTarget": 1,
+             "m_RaycastPadding": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+             },
+             "m_Maskable": 1,
+             "m_OnCullStateChanged": {
+              "m_PersistentCalls": {
+               "m_Calls": []
+              }
+             },
+             "m_FontData": {
+              "m_Font": {
+               "$builtinFont": "LegacyRuntime.ttf"
+              },
+              "m_FontSize": 14,
+              "m_FontStyle": 0,
+              "m_BestFit": 0,
+              "m_MinSize": 10,
+              "m_MaxSize": 40,
+              "m_Alignment": 0,
+              "m_AlignByGeometry": 0,
+              "m_RichText": 1,
+              "m_HorizontalOverflow": 0,
+              "m_VerticalOverflow": 0,
+              "m_LineSpacing": 1.0
+             },
+             "m_Text": "{\r\n  \"Font\": \"NotoSans-Regular SDF\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 11.25,\r\n  \"Alignment\": 513,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": true,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"STRINGS.UI.USEBLUEPRINTSTATECONTAINER.INFOITEMSCONTAINER.EXPORTACTIONS.EXPORT_LABEL\",\r\n  \"X\": -10.0,\r\n  \"Y\": -4.0,\r\n  \"Color\": [\r\n    1.0,\r\n    1.0,\r\n    1.0\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 12.0,\r\n  \"VariableFontSizeMinimum\": 6.0,\r\n  \"Overflow\": 1\r\n}"
             }
            }
           ],
@@ -7163,7 +9346,7 @@
            },
            "m_Interactable": 1,
            "m_TargetGraphic": {
-            "$ref": "1/18/0",
+            "$ref": "1/20/0",
             "$type": "UnityEngine.UI.Image, UnityEngine.UI",
             "$name": "RotateL"
            },
@@ -7580,7 +9763,7 @@
            },
            "m_Interactable": 1,
            "m_TargetGraphic": {
-            "$ref": "1/18/1",
+            "$ref": "1/20/1",
             "$type": "UnityEngine.UI.Image, UnityEngine.UI",
             "$name": "RotateR"
            },
@@ -9113,7 +11296,7 @@
            },
            "m_Interactable": 1,
            "m_TargetGraphic": {
-            "$ref": "1/22/0",
+            "$ref": "1/24/0",
             "$type": "UnityEngine.UI.Image, UnityEngine.UI",
             "$name": "FlipH"
            },
@@ -9530,7 +11713,7 @@
            },
            "m_Interactable": 1,
            "m_TargetGraphic": {
-            "$ref": "1/22/1",
+            "$ref": "1/24/1",
             "$type": "UnityEngine.UI.Image, UnityEngine.UI",
             "$name": "FlipV"
            },
@@ -10150,7 +12333,7 @@
            },
            "m_Interactable": 1,
            "m_TargetGraphic": {
-            "$ref": "1/23/1",
+            "$ref": "1/25/1",
             "$type": "UnityEngine.UI.Image, UnityEngine.UI",
             "$name": "FlipH"
            },
@@ -10441,7 +12624,7 @@
            },
            "m_Interactable": 1,
            "m_TargetGraphic": {
-            "$ref": "1/23/2",
+            "$ref": "1/25/2",
             "$type": "UnityEngine.UI.Image, UnityEngine.UI",
             "$name": "FlipV"
            },
