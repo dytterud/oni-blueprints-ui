@@ -3573,7 +3573,7 @@
                 "m_VerticalOverflow": 0,
                 "m_LineSpacing": 1.0
                },
-               "m_Text": "{\r\n  \"Font\": \"LiberationSans SDF - Fallback\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 20.0,\r\n  \"Alignment\": 513,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": false,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"STRINGS.UI.BLUEPRINTNAMEDIALOGUE.BODY.DROPDOWNAREA.CONTENT.ENTRYPREFAB.LABEL\",\r\n  \"X\": -6.0,\r\n  \"Y\": -2.5,\r\n  \"Color\": [\r\n    0.0,\r\n    0.0,\r\n    0.0\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 20.0,\r\n  \"VariableFontSizeMinimum\": 16.0,\r\n  \"Overflow\": 3\r\n}"
+               "m_Text": "{\r\n  \"Font\": \"LiberationSans SDF - Fallback\",\r\n  \"FontStyle\": 0,\r\n  \"FontSize\": 20.0,\r\n  \"Alignment\": 513,\r\n  \"MaxVisibleLines\": 99999,\r\n  \"EnableWordWrapping\": false,\r\n  \"AutoSizeTextContainer\": false,\r\n  \"Content\": \"STRINGS.UI.BLUEPRINTNAMEDIALOGUE.BODY.DROPDOWNAREA.CONTENT.ENTRYPREFAB.LABEL\",\r\n  \"X\": -6.0,\r\n  \"Y\": -2.5,\r\n  \"Color\": [\r\n    0.0,\r\n    0.0,\r\n    0.0\r\n  ],\r\n  \"VariableFontSize\": true,\r\n  \"VariableFontSizeMaximum\": 20.0,\r\n  \"VariableFontSizeMinimum\": 16.0,\r\n  \"Overflow\": 0\r\n}"
               }
              }
             ],
